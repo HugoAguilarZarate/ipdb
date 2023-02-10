@@ -1,0 +1,169 @@
+*{
+   margin: 0;
+   padding: 0; 
+   color: rgb(248, 242, 242);
+}
+.cop{
+    background-image: url(btncopiar.png);
+    background-size: 15px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color: rgb(132, 132, 143);
+    margin-left: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 20px; 
+}
+.cop:hover{
+    background-color: rgb(11, 11, 236);
+}
+.cop:active{
+    background-color: rgb(18, 231, 18);
+}
+div, header{
+    background-color: rgb(13, 13, 107);
+    display: inline-block;   
+}
+header{
+    width: 100%;
+    padding: 10px;
+}
+body{
+    background-image: url("Anonymous-Logo-1.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x:50%;
+    background-position-y: 200% ;
+    overflow-x: hidden; 
+    animation-name: fondo ;
+    animation-duration: 4s;
+}
+@keyframes fondo{
+    
+    25%{
+       background-color: rgb(17, 16, 16);
+    }
+    50%{
+        background-color: rgb(15, 14, 14);
+    }
+    75%{
+        background-color: rgb(7, 7, 7);
+    }
+}
+table{
+    margin: 1% 8% 5% 8%;
+    border-style: double;
+    display: inline-block;
+}
+th{
+    background-color: rgb(6, 6, 34);
+    padding: 3px 20px 3px 20px;
+    text-align: center;  
+}
+tr, td{
+    background-color: rgb(16, 16, 116);
+    border-style: double;
+    text-align: center;
+    padding: 4px 20px 4px 20px;      
+}
+input, button, select, #vpn{
+    background-color:rgb(59, 55, 55);
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+h2{
+    margin: 1% 40% 1% 40%;
+}
+h3{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#barra{
+    margin: 0 5% 0% 8%;
+    padding: 8px;
+}#buscador{
+    width: 500px;
+    padding: 5px;
+}
+
+.formularios{
+    border-radius: 5px;
+    border-style: double;
+    width: 25%;
+    padding: 20px;
+    margin: 1% 35% 1% 35%; 
+}
+#aviso{
+    text-align: center;
+    margin: 1% 35% 1% 35%;
+    padding: 5px;
+    border-style: double;
+    border-radius: 5px;
+    width: 27.5%; 
+}
+a{
+    text-decoration: none;
+}
+.editar{
+    background-color: rgb(19, 19, 214);
+
+}
+.editar:hover{
+    background-color: rgb(3, 3, 122);
+}
+.editar:active{
+    background-color: rgb(1, 1, 14);
+}
+.borra{
+    background-color: rgb(212, 6, 6);
+}
+.borra:hover{
+    background-color: rgb(156, 3, 3);
+}
+.borra:active{
+    background-color: rgb(34, 0, 0);
+}
+.ronly{
+    background-color: rgb(13, 13, 107);
+    width: 8px;
+    outline: none;
+    border: 0;
+}
+.header{
+    width: 15%;
+    margin: 5px;
+}
+.header:hover{
+    background-color: rgb(53, 41, 41);
+}
+#portada{
+    height: 350px;
+    width: 20%;
+    margin:10% 37%;
+    text-align: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 30px 0 30px;
+    border-style: double;
+    border-radius: 10px;
+    animation-name: portada;
+    animation-duration: 3s;
+}
+@keyframes portada{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }100%{
+        opacity: 1;
+    }
+}
+#imagen{
+    border-style: double;
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>Guardar</title>
+</head>
+<body>
+    <header>
+        <h3>IP Data Base</h3>
+        <button class="header"><a href="guardar.html">Guardar</a></button>
+        <button class="header"><a href="buscar.php">Buscar</a></button>
+    </header>
+    <h2>Guardar nuevos datos</h2>
+    <div class="formularios">
+        <form id="form" action="" method="post">
+           
+            <input type="text" name="idpsn" id="idpsn" required autocomplete="off" placeholder="ID de PlayStation"><br>
+            <input type="text" name="ip" id="ip" required autocomplete="off" placeholder="IP"><br>
+            <input type="text" name="puerto" id="puerto" required placeholder="Puerto"><br><br>
+            <label for="">Datos opcionales</label><br><br>
+            <label for="">Seleciona si esta IP es una Vpn</label><br>
+            <label for="">Vpn:</label>
+            <input type="checkbox" name="vpn" id="vpn">
+            <label for=""></label><br>
+            <input type="text" name="pais" id="pais" placeholder="Pais"><br><br>
+            <input type="submit" value="Guardar">
+        </form>
+    </div>
+    <div id="aviso"></div>
+    <script src="js/inserta.js"></script>    
+</body>
+</html>
